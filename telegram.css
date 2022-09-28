@@ -1,0 +1,306 @@
+    body{
+        margin: 0;
+    }
+    .main{
+        display: flex;
+        height: 100vh;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        width: 424px;
+        flex-shrink: 0;
+        background: white; 
+        overflow-x:scroll;
+    }
+    .sms{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        position: relative;
+    }
+    .sms_fon{
+        background-image: url('./img.telegram.png');
+        background-size: auto auto;
+        opacity: 0.8;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .sms_fon_paint{
+        width: 100%;
+        height: 100%;
+        background: rgba(18, 240, 36, 0.815);
+    }
+    .blog{
+        display: flex;
+        align-items: baseline;
+        padding: 10px 10px;
+    }
+    .blog_img{
+        height: 30px;
+        opacity:0.5
+    }
+    .blog_1_img{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+    }
+    .blog_1_img:hover{
+        background: rgb(219, 219, 219)
+    }
+    .blog_img_search{
+        height: 30px;
+        padding-left: 10px;
+    }
+    .blog_search{
+        display: flex;
+        align-items: center;
+        padding: 5 px;
+        border: 10px ;
+        border: 1px solid gray;
+        border-radius: 40px;
+        flex-grow: 1;
+        margin-left: 10px;
+        transition:background 0.7s linear;
+    }
+    .blog_search:hover{
+        border:2px solid blue;  
+    }
+    .blog_input{
+        padding: 10px;
+        outline: none;
+        border: 0;
+        padding-left: 10px;
+        flex-grow: 1;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    .contact_people{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .contact_people:hover{
+        background:rgb(219, 219, 219);
+    }
+    .contact_img{
+        height: 54px;
+        width: 54px;
+        border-radius: 50px;
+    }
+    .contact_people_sms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5px;
+        position: relative;
+        flex-grow: 1;
+        margin-right: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        
+    }
+    .contact_people_sms_1{
+        margin: 0px;
+        padding: 3px;
+        font-weight: 800;
+        font-size: 18;
+        overflow: hidden;
+    }
+    .contact_people_sms_2{
+        margin: 0px;
+        padding: 3px;
+        font-size: 17;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .contact_time{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size:14;
+        opacity:0.6
+    }
+    .sms_contact{
+        display: flex;
+        height: 56px;
+        background: white;
+    }
+    .sms_contact_resource{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+    .sms_contact_resource_1{
+        height: 42px;
+        width: 42px;
+        border-radius: 50px;
+        margin-left: 15px;
+    }
+    .sms_contact_resource_text{
+        display: flex;
+        flex-direction:column;
+        margin-left: 15px;
+    }
+    .sms_contact_resource_2 {
+        height: 34px;
+        width: 34px;
+        margin: 10px;
+    }
+    .sms_contact_resource_right{
+        display: flex;
+        align-items:center;
+        flex-shrink: 0;
+    }
+    .sms_contact_resource_right_up{
+        display: flex;
+        flex-direction: column;
+    }
+    .sms_contact_resource_right_up p {
+        margin: 0px;
+    }
+    .wright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .wright_elemets{
+        background: white;
+        height: 60px;
+        width: 500px;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+    }
+    .wright_elemets img{
+        height: 35px;
+        width: 35px;
+        padding: 10px;
+    }
+    .wright_elemets input{
+        padding: 10px;
+        outline: none;
+        border: 0;
+        cursor: pointer;
+        flex-grow: 1;
+        height: 60px;
+        font-size: 16;
+    }
+    .wright_post{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .wright_post:hover{
+        border-radius: 50px;
+        background-color:rgba(166, 166, 170, 0.623);
+        padding: 10px;
+
+    }
+    .wright_elemets img:hover{
+        border-radius: 50px;
+        background-color:rgba(166, 166, 170, 0.623);
+    }
+    .position{
+        background: white;
+        position: absolute;
+        height: 105px;
+        width: 180px; 
+        display: flex;
+        flex-direction: column;
+        right: 255px;
+        bottom: 45px;
+        display:none ;
+    }
+    .position_1{
+        display: flex;
+        align-items: center;
+    }
+    .position_img {
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .klik{
+        background: grey;
+    }
+    .wright_elemets:active .position{
+        display: block;
+    }
+    .position:hover{
+        display: block;
+    }
+    .speak{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        overflow-y:scroll;
+        width: 100%;
+    }
+    .speak-left{
+       margin-right: 400px;
+       margin-top: 20px;
+       background-color: white;
+       padding: 10px;
+       width: 400px;
+       border-radius: 10px;
+       word-break: break-all;
+       position: relative;
+    }
+    .speak-right{
+        margin-left: 400px;
+        margin-top: 20px;
+        background-color: white;
+        padding: 10px;
+        width: 400px;
+        border-radius: 10px;
+        position: relative;
+        word-break: break-all;
+        position: relative;
+    }  
+    .speak_img{
+        width: 350px;
+        height: auto;
+        object-fit: fill;
+    }
+    .speak video{
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .speak_time{
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        right: 5px;
+        bottom: 2px;
+        border-radius: 30px;
+        background: rgba(155, 154, 154, 0.3);
+        position: absolute;
+    }
+    .speak_time_vr{
+        font-size: small;
+        font-size: 10px;
+    }
+    .speak_time_vr_img{
+        width: 10px;
+        height: 10px;
+        margin-left: 2px;
+    }
+

@@ -1,0 +1,36 @@
+body {margin: 1px;}
+.blog{
+    background: green;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 5s;
+    animation-name: square1;
+    animation-name: square2;
+    position:fixed;
+}
+.green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes square1{
+    from{ 
+        right: -300px;
+    }
+   to{
+        right: 537px;
+    }
+}
+@keyframes square2{
+    from{
+        left: -300px;
+    }
+    to{
+        left: 540px;
+    } 
+}
